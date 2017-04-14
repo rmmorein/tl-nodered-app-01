@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: nodered-app-01
+  host: nodered-app-01
+  disk_quota: 1024M
+  services:
+  - nodered-app-01-cloudantNoSQLDB
+  - Language Translator-gd
+  - Conversation-do
+  - Visual Recognition-wu
